@@ -559,7 +559,222 @@ button {
   letter-spacing: -0.02em;
   color: #0062f6;
 }
+.integration_icon {
+  position: relative;
+}
 .integration_easy_icon {
   position: absolute;
-  /* left: 50px; */
+  left: 720px;
+  top: -140px;
+}
+.integration_steps_list {
+  margin-top: 120px;
+  display: flex;
+}
+.integration_step {
+  position: relative;
+  padding: 30px 30px 40px;
+  width: 375px;
+  height: 400px;
+  background: #f5f7fa;
+  border-radius: 20px;
+}
+.integration_step:not(:last-child) {
+  margin-right: 40px;
+}
+.integration_steps_list {
+  padding-bottom: 275px;
+}
+.integration_step_text {
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ff9bd7;
+}
+.integration_step_subtext {
+  font-family: "Blender Pro 500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ff9bd7;
+  margin-bottom: 20px;
+}
+.integration_step_text_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #222426;
+  margin-bottom: 20px;
+}
+.integration_step_description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #555e66;
+}
+.integration_arrow_thumb {
+  position: relative;
+}
+.integration_arrow {
+  position: absolute;
+  left: -40px;
+  top: 160px;
+}
+.integration_step_text_2 {
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #68dc97;
+}
+.integration_step_subtext_2 {
+  font-family: "Blender Pro 500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #68dc97;
+}
+.integration_link {
+  position: absolute;
+  padding-top: 25px;
+  left: 0px;
+  width: 375px;
+  height: 75px;
+  background: linear-gradient(92.29deg, #68dc97 0%, #96ffad 100%);
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #222426;
+}
+.integration_link_arrow {
+  margin-left: 90px;
+}
+.integration_step_text_3 {
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #baa1ff;
+}
+.integration_step_subtext_3 {
+  font-family: "Blender Pro 500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #baa1ff;
+}
+.integration_step_text_4 {
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffa842;
+}
+.integration_step_subtext_4 {
+  font-family: "Blender Pro 500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #ffa842;
+}
+.usage_section {
+  background: #f5f7fa;
+}
+.usage_text {
+  padding-top: 100px;
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #222426;
+}
+.usage_subtext {
+  margin-bottom: 70px;
+  font-family: "Blender Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #222426;
+}
+.usage_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+.usage_option:not(:nth-child(2n)) {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.usage_option {
+  flex-basis: calc((100% - 20px) / 2);
+  display: flex;
+  width: 800px;
+  height: 250px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.usage_option_image {
+  border-radius: 20px;
+}
+.usage_text_thumb {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.usage_text_title {
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #222426;
+}
+.usage_text_subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #555e66;
 }
